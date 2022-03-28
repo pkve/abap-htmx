@@ -93,7 +93,7 @@ CLASS ztf_handler IMPLEMENTATION.
         `<title>` 'Table finder'(tfi) `</title>`
         `<link rel="icon" href="https://www.sap.com/favicon.ico">`
         `<link rel="stylesheet" href="https://unpkg.com/fundamental-styles`
-                                     `@latest/dist/fundamental-styles.css">`
+                                     `@0.22.0/dist/fundamental-styles.css">`
         `<style>`
           `@font-face { font-family: '72'; `
                        `src: url('` fonts_url `/72-Regular.woff') format('woff');`

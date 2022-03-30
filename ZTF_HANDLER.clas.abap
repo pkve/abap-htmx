@@ -93,7 +93,12 @@ CLASS ztf_handler IMPLEMENTATION.
         `<title>` 'Table finder'(tfi) `</title>`
         `<link rel="icon" href="https://www.sap.com/favicon.ico">`
         `<link rel="stylesheet" href="https://unpkg.com/fundamental-styles`
-                                     `@0.22.0/dist/fundamental-styles.css">`
+                                     `@latest/dist/fundamental-styles.css">`
+        `<link rel="stylesheet" href="https://unpkg.com/`
+                                     `@sap-theming/theming-base-content/content`
+                                     `/Base/baseLib/sap_fiori_3/css_variables.css">`
+        `<link rel="stylesheet" href="https://unpkg.com/fundamental-styles`
+                                     `@latest/dist/theming/sap_fiori_3.css">`
         `<style>`
           `@font-face { font-family: '72'; `
                        `src: url('` fonts_url `/72-Regular.woff') format('woff');`
@@ -150,7 +155,7 @@ CLASS ztf_handler IMPLEMENTATION.
                   `aria-label="button-decline" `
                   `data-hx-get="` path `" `
                   `data-hx-headers='{"app-action": "search_init"}'>`
-            `<i class="sap-icon--decline"></i>`
+            `<i class="sap-icon sap-icon--decline"></i>`
           `</button>`
         `</span>`
       `</div>`
